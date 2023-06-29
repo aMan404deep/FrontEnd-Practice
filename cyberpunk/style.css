@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 34%;
+}
+#nav h1{
+    font-size: 25px;
+    color: red;
+}
+#nav h5{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav h6{
+    font-size: 14px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 80px);
+    /* background-color: rgb(0, 81, 255); */
+    position: relative;
+    display: flex;
+    padding: 0 30px;
+}
+#part1{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 80px;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+#part3{
+    height: 100%;
+    width: 30%;
+    /* background-color: green; */
+}
+
+#part1 h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -2px;
+    font-weight: 700;
+    line-height: 55px;
+}
+#part1 h1 span{
+    font-weight: 800;
+    color: red;
+}
+#part1 img{
+    height: 240px;
+    margin-top: 190px;
+}
+
+#inpart1{
+    position :absolute;
+    left: 290px;
+    top: 60%;
+}
+#inpart1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+#inpart1 span{
+    color: red;
+    font-weight: 700;
+}
+#inpart1 h6{
+    font-size: 13px;
+    
+}
+
+#part3 img{
+    width: 200%;
+    height: 89%;
+    
+}
+
+#part3 {
+    display: flex;
+}
+
+#inpart3{
+    margin-left: 50%;
+}
+#inpart3 img{
+    width: 300%;
+    height: 40%;
+    margin-top:30%;
+}
+#inpart3 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 15px;
+    width: 200%;
+}
+#inpart3 span{
+    color: red;
+    font-weight: 700;
+}
+
+#inpart3 h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top:50%;
+    width: 400%;
+    font-size: 120%;
+}
